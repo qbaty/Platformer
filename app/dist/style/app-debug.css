@@ -1,0 +1,36 @@
+body,
+canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+header {
+  background: #fff;
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1111;
+}
+canvas {
+  position: absolute;
+}
+#sky {
+  z-index: 1;
+}
+#background {
+  z-index: 111;
+}
+#cloud {
+  z-index: 11;
+}
+#entity {
+  z-index: 1111;
+}
+#main {
+  z-index: 11111;
+}
+#floor {
+  z-index: 111;
+}
